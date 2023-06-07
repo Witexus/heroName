@@ -45,7 +45,7 @@ def na_rzymskie(liczebnik):
 
 
 dlugosc_imienia = int(input("Podaj długość twojego imienia Wojownika: "))
-czyBaba = input("Baba? (t/n):").lower() == "t"
+czyBaba = input("Czy chcesz aby imię było żeńskie? (t/n):").lower() == "t"
 czyLiczebnik = input("Czy chcesz liczebnik w imieniu? (t/n):").lower() == "t"
 czyTytul = input("Czy chcesz przydomek do imienia? (t/n):").lower() == "t"
 
